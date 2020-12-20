@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Exemple : Une page CV</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fontawesome.com/icons/home?style=solid">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+#imgtourne {
+border-radius: 100px;
+margin-left: 0px;
+-webkit-animation:spin 4s linear infinite;
+-moz-animation:spin 4s linear infinite;
+animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+</style>
+
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-container w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding" style="margin:0 -16px">
+  
+    <!-- Left Column -->
+    <div class="w3-half" style="width: 25%;">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="w3images/Ambre.jpg"style="width:100%;position: relative;" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+<!-- 
+ 			<div class="w3-container w3-text-black w3-theme">
+ -->
+             <h2 style="float: left;">Ambre Gemma</h2><P style="color: whrite;"/p>
+             
+
+            </div>
+        </div>
+        <div class="w3-container ">
+          <p><i class="fa fa-graduation-cap w3-text-theme" id="imgtourne"></i>Étudiante en Design Graphique</p>
+          <p><i class="fa fa-home w3-text-theme" ></i> Lyon</p>
+
+          <p><i class="fa fa-envelope w3-text-theme" ></i> ambre07.gemma@
+          gmail.com</p>
+          <p><i class="fa fa-phone w3-text-theme" ></i> 0612451971</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-theme"></i>(Compétences)</b></p>
+          <p> Indesign</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:90%">
+              <div class="w3-center w3-text-white">(90%)</div>
+            </div>
+          </div>
+          <p> Ligthroom</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:80%">
+              <div class="w3-center w3-text-white">(80%)</div>
+            </div>
+          </div>
+          <p> Final cut pro</p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:75%">
+              <div class="w3-center w3-text-white">(75%)</div>
+            </div>
+          </div>
+          <p> Photoshop </p>
+          <div class="w3-progress-container w3-round-xlarge w3-small">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:70%">
+              <div class="w3-center w3-text-white">(70%)</div>
+            </div>
+          </div>
+          <br>
+
+          <p class="w3-large"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>Languages</b></p>
+          <p> Anglais</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:100%"></div>
+          </div>
+          <p> Espagnol </p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:75%"></div>
+          </div>
+          <p> Italien</p>
+          <div class="w3-progress-container w3-round-xlarge">
+            <div class="w3-progressbar w3-round-xlarge w3-theme" style="width:45%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-half" style="width: 75%;">
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+      <table style="width: 100%;">
+        <tr class="w3-theme">
+           <td></td>
+           <td>1999</td>
+           <td>2020</td>
+           
+        </tr>
+        <tr>
+          <td>Ma formation</td>
+          <td><a href="#bacS"> Baccalauréat Littéraire </a></td>
+          <td><a href="#licence">Master Deux Direction Artistique</a></td>
+          
+        </tr>
+        <tr>
+          <td>Mon experience</td>
+          <td><a href="#surveillance"> Annimatrice centre aèré </a></td>
+          <td><a href="#developpeur"> Serveuse</a></td>
+          <td><a href="#stage"> Hotesse </a></td>
+        </tr>
+      </table>
+      </div>
+    </div>
+
+    <div class="w3-half" style="width: 75%;">
+    
+      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-theme"></i>Formation</h2>
+        <div class="w3-container">
+          <h5 style="opacity: 0.5;"><b>Brevet des collèges</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2014</h6>
+          
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 id="master" style="opacity: 0.5;"><b>Baccalauréat Littéraire</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019</h6>
+          
+        </div>
+        <div class="w3-container">
+          <h5 id="licence" style="opacity: 0.5;"><b>BAFA</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017</h6>
+         
+        <div class="w3-container">
+          <h5 id="bacS" style="opacity: 0.5;"><b>Master 2 Direction Artistique</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2024</h6>
+        
+      </div>
+
+      <div class="w3-container w3-card-2 w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-theme"></i>Expérience professionnelle</h2>
+        <div class="w3-container">
+          <h5 id="stage" style="opacity: 0.5;"><b>Animatrice Centre Aéré</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017-2019 <div class="w3-tag w3-round w3-theme"></div></h6>
+          
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 id="developpeur" style="opacity: 0.5;"><b>Serveuse</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2020</h6>
+         
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 id="surveillance" style="opacity: 0.5;"><b>Hôtesse</b></h5>
+          <h6 class="w3-text-theme"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019-2020</h6>
+          
+      </div>
+
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-theme w3-center w3-margin-top">
+  <p><i class="fa fa-copyright fa-fw w3-margin-right"></i>(Contact :) <i class="fa fa-facebook-square"></i>      <i class="fa fa-twitter"></i></p>
+</footer>
+ 
+</body>
+</html>
